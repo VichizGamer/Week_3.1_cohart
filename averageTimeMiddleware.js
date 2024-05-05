@@ -8,13 +8,11 @@ let et;
 
 function start(req, res, next) {
   st = Date.now();
-  console.log(st);
   next();
 }
 
 function end(req, res, next) {
   et = Date.now();
-  console.log(et);
   next();
 }
 
